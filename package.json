@@ -6,12 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "oxlint",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.31.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-loading-skeleton": "^3.5.0",
+    "react-router-dom": "^7.18.2",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
@@ -22,7 +29,16 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
     "babel-plugin-react-compiler": "^1.0.0",
-    "oxlint": "^1.75.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
   }
