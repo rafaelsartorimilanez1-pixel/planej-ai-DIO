@@ -49,7 +49,7 @@ if (!API_KEY) {
   );
 }
 
-const MODEL_NAME = "gemini-flash-latest";
+const MODEL_NAME = "gemini-3.5-flash-lite";
 
 const GEMINI_API_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
