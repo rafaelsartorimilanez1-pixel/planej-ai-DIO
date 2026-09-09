@@ -1,6 +1,7 @@
 import { HistoricList } from "@/components/features/simulationResults/HistoricList"
 import { useSimulationStorage } from "@/hooks/useSimulationStorage"
 import { useNavigate } from "react-router-dom"
+import type { JSX } from "react/jsx-runtime"
 
 export function HistoricPage(): JSX.Element {
 
@@ -20,7 +21,7 @@ export function HistoricPage(): JSX.Element {
                 id?: string | undefined
                 goalName: string
                 date: string
-                goalAmount: number
+                goalAmount: string
                 goalDeadLine: string
             }, index: number) => {
                 return (

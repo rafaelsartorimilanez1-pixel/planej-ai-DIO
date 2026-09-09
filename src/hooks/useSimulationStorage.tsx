@@ -4,7 +4,7 @@ const LOCAL_STORAGE_KEY = 'simulation-data'
 
 export const useSimulationStorage = () => {
 
-    const saveFormData = (formData: SimulationFormData, monthlySavings: string) => {
+    const saveFormData = (formData: SimulationFormData, monthlySavings?: string) => {
 
         const id = crypto.randomUUID()
 
@@ -12,7 +12,7 @@ export const useSimulationStorage = () => {
             ...formData,
             id,
             date: new Date().toLocaleDateString('pt-BR'),
-            goalMonthlySavings: monthlySavings,
+            goalMonthlySavings: monthlySavings ?? '',
         }
 
         const storage = localStorage.getItem(LOCAL_STORAGE_KEY)

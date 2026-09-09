@@ -1,4 +1,4 @@
-import { Button } from "@/components/shared/button";
+import { Button } from "@/components/shared/Button";
 import { Divider } from "@/components/shared/Divider";
 import { useTheme } from "@/hooks/useTheme";
 import { Clock, Moon, Sun, TrendingUp, Wallet } from "lucide-react";

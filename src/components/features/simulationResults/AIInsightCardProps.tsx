@@ -3,8 +3,8 @@ import { useInsight } from '@/hooks/useInsigth.tsx'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
-import { Content } from '../insights/content.tsx'
-import { Error } from '../insights/error.tsx'
+import { Content } from '../insights/Content.tsx'
+import { Error } from '../insights/Error.tsx'
 
 interface AIInsightCardProps {
   simulationId: string

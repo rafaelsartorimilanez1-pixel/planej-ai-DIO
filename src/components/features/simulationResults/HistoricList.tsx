@@ -1,4 +1,4 @@
-import { Button } from "@/components/shared/button";
+import { Button } from "@/components/shared/Button";
 import { ExternalLink, Goal, Trash } from "lucide-react";
 
 interface HistoricListProps {

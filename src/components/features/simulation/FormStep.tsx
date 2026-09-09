@@ -1,4 +1,4 @@
-import { Button } from "@/components/shared/button"
+import { Button } from "@/components/shared/Button"
 import type { InputProps } from "@/components/shared/Input"
 import { Input } from "@/components/shared/Input"
 import { formatCurrencyMask } from "@/utils/currency"
