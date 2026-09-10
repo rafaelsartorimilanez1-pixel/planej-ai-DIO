@@ -2,6 +2,8 @@
 
 Aplicação web desenvolvida para ajudar pessoas a planejar metas financeiras de forma prática, visual e inteligente. O projeto foi pensado para transformar uma necessidade real — controlar orçamento, entender a saúde financeira e alcançar objetivos — em uma interface simples e útil, com foco em experiência do usuário e decisões financeiras mais conscientes.
 
+Link do aplicativo: https://planej-ai-dio-354m-iu9cemihr.vercel.app/
+
 ## Objetivo do projeto
 
 O PlanejAI foi criado para auxiliar usuários a:
